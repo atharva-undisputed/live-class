@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <p>
+        high level language ,
+        interpreted programming language ,
+        single threded ,
+        asyncronous
+
+        es6
+
+        hoisting -> memory defined first 
+        temporal dead zone -> entering a scope until a let or const declaration is initialized
+    </p> -->
+
+
+    <div style="display: flex; flex-direction: column; gap: 10px; justify-content: center; align-items: center; height: 100vh;" >
+        <h1>calculator</h1>
+        <div>
+            <label for="inputone">first input</label>
+            <input type="number" required placeholder="enter number one" id="inputone">
+        </div>
+        <div>
+            <label for="inputtwo">second input</label>
+            <input type="number" required placeholder="enter number two" id="inputtwo">
+        </div>
+        <div>
+            <button style="padding: 7px;" id="add">+</button>
+            <button style="padding: 7px;" id="sub">-</button>
+            <button style="padding: 7px;" id="mul">*</button>
+            <button style="padding: 7px;" id="div">/</button>
+        </div>
+        <div>
+            <button id="calculate">calculate</button>
+            <p>output is: <span id="output"></span></p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
